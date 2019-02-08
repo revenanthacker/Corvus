@@ -1,7 +1,16 @@
 #!/bin/bash
 # Update Parrot with tweaks and apps
 
+#Make sure everything is up to date and pristine
 sudo apt-get update
+
+#Install
+sudo apt-get install atom
+
+#Create an Engagement Folder
+sudo mkdir Engagement
+
+
 
 #LAST RUN
 #Assign existing hostname to $hostn
