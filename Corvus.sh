@@ -13,8 +13,7 @@ sudo mkdir /usr/Engagement
 #Hopefully change the background
 #gsettings set org.gnome.desktop.background picture-uri "file://Corvus.jpg"
 
-gsettings set org.gnome.desktop.background picture-uri
- ↪"File://Corvus.jpg"
+gsettings set org.gnome.desktop.background picture-uri "File://Corvus.jpg"
 
 #LAST RUN
 #Assign existing hostname to $hostn
