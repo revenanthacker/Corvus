@@ -11,9 +11,10 @@ sudo apt-get install atom
 sudo mkdir /usr/Engagement
 
 #Hopefully change the background
-gsettings set org.gnome.desktop.background picture-uri "file://Corvus.jpg"
+#gsettings set org.gnome.desktop.background picture-uri "file://Corvus.jpg"
 
-
+gsettings set org.gnome.desktop.background picture-uri
+ ↪"File:///Corvus.jpg"
 
 #LAST RUN
 #Assign existing hostname to $hostn
@@ -34,5 +35,6 @@ sudo sed -i "s/$hostn/$newhost/g" /etc/hostname
 echo "Your new hostname is $newhost"
 
 #Press a key to reboot
+echo "All tasks completed"
 read -s -n 1 -p "Press any key to reboot"
 sudo reboot
