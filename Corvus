@@ -8,7 +8,10 @@ sudo apt-get update
 sudo apt-get install atom
 
 #Create an Engagement Folder
-sudo mkdir Engagement
+sudo mkdir /usr/Engagement
+
+#Hopefully change the background
+gsettings set org.gnome.desktop.background picture-uri "file://Corvus.jpg"
 
 
 
