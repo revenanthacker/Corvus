@@ -1,0 +1,4 @@
+#!/bin/bash
+# Update Parrot with tweaks and apps
+
+sudo apt-get update
