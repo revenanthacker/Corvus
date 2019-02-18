@@ -1,2 +1,2 @@
 # Corvus
-Updates a linux box
+Updates a linux box with tools and wallpaper.
